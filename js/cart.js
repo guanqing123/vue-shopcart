@@ -71,7 +71,7 @@ new Vue({
         delProduct: function () {
             // var index = this.productList.indexOf(this.currentProduct);
             // this.productList.splice(index, 1);
-            this.productList.splice(this.productList.findIndex(product => product.productId === this.currentProduct.productId), 1)
+            this.productList.splice(this.productList.findIndex(product => product.productId === this.currentProduct.productId), 1);
             this.delFlag = false;
             this.calTotalMoney();
         }
