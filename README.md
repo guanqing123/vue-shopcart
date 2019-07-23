@@ -2,3 +2,6 @@
 
 ----------
 
+## cart
+
+![cart](https://github.com/guanqing123/vue-shopcart/blob/master/readme/cart.png)
